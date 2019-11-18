@@ -1,3 +1,7 @@
+$(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+});
 (function($) {
     "use strict";
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
